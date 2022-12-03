@@ -1,0 +1,50 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  background-color: rgb(43, 72, 201);
+  color: white;
+  cursor: pointer;
+  padding: 15px 30px;
+  font-size: large;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+input {
+  padding: 15px;
+  font-size: 1.5rem;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-heading {
+  text-align: center;
+}
+
+#stats {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.hide {
+  display: none;
+}
+
+#text-display {
+  font-size: 2rem;
+  text-align: center;
+  /* width: fit-content; */
+}
+
+.text-padding {
+  padding: 5px;
+  display: inline-block;
+}
