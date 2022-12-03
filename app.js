@@ -44,7 +44,7 @@ function startClock() {
     // clac and display stats
     renderStats();
     if (state.elaspsedTime === state.gameLenght) {
-      alert("Game Over Comrade, WPM is: " + wpmDisplay.textContent);
+      alert("Game Over Comrade 🤪,Your WPM is: " + wpmDisplay.textContent);
 
       // reload the page
       window.location.reload();
